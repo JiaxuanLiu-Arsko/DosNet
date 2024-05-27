@@ -1,0 +1,20 @@
+fc_neurons: 8
+irreps_list:
+- edge: 1x0e+1x1o+1x2e+1x3o
+  input: 118x0e
+  key: 118x0e+118x1o+118x2e
+  output: 118x0e+118x1o+118x2e+118x3o
+  query: 118x0e+118x1o+118x2e
+- edge: 1x0e+1x1o+1x2e+1x3o
+  input: 118x0e+118x1o+118x2e+118x3o
+  key: 118x0e+118x1o+118x2e
+  output: 259x0e+259x1o+259x2e+259x3o
+  query: 118x0e+118x1o+118x2e
+- edge: 1x0e
+  input: 259x0e+259x1o+259x2e+259x3o
+  key: 118x0e+118x1o+118x2e
+  output: 400x0e
+  query: 118x0e+118x1o+118x2e
+num_basis: 400
+num_types: 118
+r_max: 6

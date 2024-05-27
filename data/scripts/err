@@ -1,0 +1,2 @@
+/work/jxliu/e3nn/DOS_net/DosNet_pl/data/scripts/preprocess_DOS.py:86: RuntimeWarning: invalid value encountered in divide
+  dos[i,:] = (dos[i,:]/all_scaling)/scaling[i]
