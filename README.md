@@ -2,6 +2,10 @@
 
 This project is to predict the electronic density of states based on SE(3) equivalent transformer.
 
+Github repository: [https://github.com/JiaxuanLiu-Arsko/DosNet/](https://github.com/JiaxuanLiu-Arsko/DosNet/)
+
+Pretrained Model file and model config are uploaded to the [Release](https://github.com/JiaxuanLiu-Arsko/DosNet/releases/tag/v0.0.1-full)
+
 ## Required Packages
 
 The DosNet model is based on **pytorch**, **pytorch_geometric**, and **e3nn**. 
