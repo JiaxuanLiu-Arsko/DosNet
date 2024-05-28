@@ -63,6 +63,9 @@ To utilize the trained model for dos of a structure, prepare POSCAR file and run
 python _from_poscar_to_dos.py POSCAR xxx.pth xxx.yaml xxx
 
 POSCAR: POSCAR file
+
 xxx.pth: model file
+
 xxx.yaml: model config file
+
 xxx: output folder for dos.txt and dos.pdf (if this folder is not found, two files will be created under the same folder as POSCAR )
