@@ -15,6 +15,7 @@ Besides,
 **monty**, **csv**, **scipy**, **sklearn** are required for preparing dataset.
 
 The version of important packages is listed below:
+```
 Python                        3.10.0
 torch                         2.2.2+cu118
 torch_geometric               2.5.2
@@ -22,7 +23,7 @@ e3nn                          0.5.1
 ase                           3.22.1
 pymatgen                      2024.3.1
 mp-api                        0.41.2
-
+```
 ## Data requisition and Preprocess
 
 To get training data from Materials Project, follow the steps
